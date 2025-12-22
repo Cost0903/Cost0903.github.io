@@ -30,11 +30,15 @@ nav:
   - 學習筆記:
       - uv 學習: notes/uv.md
       - Git 實戰: notes/git.md
+      - CI/CD 持續整合與部署: notes/cicd.md
       - Github Actions 自動化部署: notes/github_action.md
       - AI 與機器學習: notes/ai-learning.md
       - 資料結構與演算法: notes/algo-ds.md
       - Docker 實戰: notes/docker.md
       - LLM 學習: notes/llm.md
+  - About:
+    - License: license.md
+    - Release Notes: release-notes.md
 
 markdown_extensions:
   - pymdownx.highlight: # 程式碼高亮
@@ -42,3 +46,4 @@ markdown_extensions:
   - pymdownx.superfences # 支援更複雜的程式碼區塊
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tilde # 支援 markdown 刪除線

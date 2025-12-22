@@ -1,0 +1,11 @@
+# .gitignore
+
+# 忽略 MkDocs 編譯輸出的資料夾
+site/
+
+# 忽略 Python 編譯檔
+__pycache__/
+*.pyc
+
+# 忽略 uv / Python 虛擬環境
+.venv/
