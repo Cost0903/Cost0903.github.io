@@ -1,0 +1,44 @@
+site_name: MikeSu - Python 後端工程師
+site_url: https://cost0903.github.io/
+repo_url: https://github.com/cost0903/cost0903.github.io
+
+theme:
+  name: material
+  language: zh-TW # 設定繁體中文
+  palette:
+    # 切換深色/淺色模式的按鈕
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs # 上方導覽列
+    - navigation.sections
+    - navigation.top # 回到頂部按鈕
+    - content.code.copy # 程式碼區塊複製按鈕
+
+# 這裡設定網站的選單結構
+nav:
+  - 關於我 (履歷): index.md
+  - 技術專案:
+      - Linux 系統管理: projects/linux-sysadmin.md
+      - Python 後端開發: projects/python-backend.md
+  - 學習筆記:
+      - uv 學習: notes/uv.md
+      - Git 實戰: notes/git.md
+      - Github Actions 自動化部署: notes/github_action.md
+      - AI 與機器學習: notes/ai-learning.md
+      - 資料結構與演算法: notes/algo-ds.md
+      - Docker 實戰: notes/docker.md
+      - LLM 學習: notes/llm.md
+
+markdown_extensions:
+  - pymdownx.highlight: # 程式碼高亮
+      anchor_linenums: true
+  - pymdownx.superfences # 支援更複雜的程式碼區塊
+  - pymdownx.tasklist:
+      custom_checkbox: true
