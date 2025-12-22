@@ -23,7 +23,7 @@ theme:
 
 # 這裡設定網站的選單結構
 nav:
-  - 關於我 (履歷): index.md
+  - 關於我: index.md
   - 技術專案:
       - Linux 系統管理: projects/linux-sysadmin.md
       - Python 後端開發: projects/python-backend.md
@@ -36,9 +36,6 @@ nav:
       - 資料結構與演算法: notes/algo-ds.md
       - Docker 實戰: notes/docker.md
       - LLM 學習: notes/llm.md
-  - About:
-    - License: license.md
-    - Release Notes: release-notes.md
 
 markdown_extensions:
   - pymdownx.highlight: # 程式碼高亮
