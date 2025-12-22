@@ -27,9 +27,6 @@ jobs:
         # uv sync 會讀取 uv.lock 並安裝完全一致的套件版本
         run: uv sync --all-extras --dev
 
-      # - name: MkDocs Build
-      #   run: uv run mkdocs build
-
       - name: Deploy to Github Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

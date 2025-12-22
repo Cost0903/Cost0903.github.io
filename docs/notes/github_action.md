@@ -1,13 +1,13 @@
 # GitHub Actions 自動化部署實戰
 
-這篇筆記紀錄了如何使用 Github Actions 將 MkDocs 網站自動化部署到 Github Pages。
+這篇筆記紀錄了如何使用 Github Actions 將 MkDocs 網站自動化部署到 Github Pages
 
 ## 為什麼要自動化 ?
-身為一名後端工程師 ~~ (以及一名懶人) ~~ ，減少重複性的手動工作 (Manual Toil) 是 DevOps 的核心精神。
-透過 CI/CD 我們可以：
-* **避免人為失誤**：防止忘記編譯、指令輸入錯誤、自動化測試。
-* **專注內容**：寫完 Code `git push` 即可，無須手動執行後續動作。
-* **版本控制**：部署流程本身也被寫成程式碼 (Infrastructure as Code) 管理。
+身為一名後端工程師，減少重複性的手動工作 (Manual Toil) 是 DevOps 的核心精神。<br>
+透過 CI/CD 我們可以：<br>
+* **避免人為失誤**：防止忘記編譯、指令輸入錯誤、自動化測試。<br>
+* **專注內容**：寫完 Code `git push` 即可，無須手動執行後續動作。<br>
+* **版本控制**：部署流程本身也被寫成程式碼 (Infrastructure as Code) 管理。<br>
 
 ## 實作步驟
 
