@@ -23,7 +23,8 @@ theme:
 
 # 這裡設定網站的選單結構
 nav:
-  - 關於我: index.md
+  - Home: index.md
+  - 關於我: resume.md
   - 技術專案:
       - Linux 系統管理: projects/linux-sysadmin.md
       - Python 後端開發: projects/python-backend.md

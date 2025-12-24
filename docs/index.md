@@ -1,24 +1,45 @@
-# 關於我
+# Hello, I'm MikeSu 👋
 
-你好，我是 **[Mike Su]**，一名專注於 Python 的後端工程師。
+**Python Backend Engineer | ex-Linux System Admin**
 
-## 專業技能
-* **程式語言**: Python (FastAPI, Django, Flask)
-* **系統運維**: Linux (Arch Linux, Ubuntu), Shell Scripting
-* **容器化**: Docker, Docker Compose, Kubernetes (Basic)
-* **資料庫**: PostgreSQL, Redis, MySQL, InfluxDB
+我是一名熱愛自動化與系統架構的後端工程師。
+擁有 Linux 系統管理背景，這讓我不僅能編寫 Python 程式碼，更能深刻理解程式碼在伺服器與容器 (Docker) 中的運作方式。
 
-## 工作經歷
+---
 
-### 後端工程師 | [墨田碩]
-*20xx 年 - 現在*
-* 設計並實作高併發 API。
-* 將原有服務 Docker 化，提升部署效率 50%。
+## 🚀 技術專長 (Tech Stack)
 
-### Linux 系統工程師 | [精誠資訊]
-*20xx 年 - 20xx 年*
-* 管理超過 50 台 Linux 伺服器集群。
-* 自動化備份流程與監控系統建置。
+我專注於建構高可用性的後端服務，並將 DevOps 思維融入開發流程。
 
-## 未來目標
-目前正積極學習 **AI/ML** 相關知識，並持續精進 **資料結構與演算法** 能力。
+| 領域 | 關鍵技術 |
+| :--- | :--- |
+| **Backend** | **Python** (FastAPI, Django, Flask), RESTful API |
+| **Infra & Ops** | **Linux** (RHEL/CentOS, Ubuntu), **Docker**, Shell Scripting |
+| **DevOps** | **GitHub Actions** (CI/CD), **uv** (Package Management) |
+| **Database** | PostgreSQL, Redis |
+
+---
+
+## 🎯 當前目標 (Current Focus)
+
+!!! quote "持續學習中"
+    目前我正致力於擴展 **AI 與機器學習** 的知識領域，同時持續精進 **資料結構與演算法**，期許能將 AI 模型有效地整合至後端系統中。
+
+---
+
+## 📚 網站導覽
+
+這個網站記錄了我的技術筆記與職涯歷程，你可以從這裡開始：
+
+* **[關於我 / 履歷 (Resume)](resume.md)**
+    <br>查看我的詳細工作經歷與專案成果。
+
+* **[技術筆記 (Engineering Notes)](notes/uv.md)**
+    <br>收錄我在開發過程中遇到的問題與解決方案，包含：
+    * [🛠️ uv 套件管理實戰](notes/uv.md)
+    * [🤖 GitHub Actions 自動化部署](notes/github_action.md)
+    * [🐧 Linux 系統管理心得](projects/linux-sysadmin.md)
+
+---
+
+<small>Contact: [你的 Email] | [GitHub 連結] | [LinkedIn 連結]</small>
